@@ -1,12 +1,18 @@
+html {
+    background-color: #E5EAEE;
+}
+
 .b1 {
-    background-color: rgb(182, 199, 199);
+    background-color: #2090AC;
+    color: azure;
     font: 34px'Arapey';
     border: 0px;
     border-radius: 100px;
     padding: 10px;
 }
 .b1:hover {    
-    background-color: rgb(198, 243, 243);
+    background-color: #54bfda;
+    color: azure;
     font: 34px'Arapey';
     border: 0px;
     border-radius: 100px;
@@ -25,4 +31,9 @@
     font: 34px'Arapey';
     text-decoration: underline;
     transition: 0.5s;
+}
+div {
+    background-color: blueviolet;
+    width: 5px;
+    margin: 0px;
 }
