@@ -32,8 +32,33 @@ html {
     text-decoration: underline;
     transition: 0.5s;
 }
-div {
-    background-color: blueviolet;
-    width: 5px;
-    margin: 0px;
+.b3 {
+  background-color: rgba(182, 199, 199, 0);
+  font: 34px'Arapey';
+  border: 0px;
+  padding: 10px;
+  margin: 10px;
+  transition: all 2s ease-in-out;
+}
+.b3:hover {
+  background: linear-gradient(
+  90deg,
+  #2f4bff,
+  #2f4bff 3px,
+  #46529800 3px,
+  #46529800 20px);
+  transition: all 2s ease-in-out;
+}
+.b4d {
+    width: 0%;
+    font: 34px'Arapey';
+    border: 0px;
+    padding: 10px;
+    white-space: nowrap;
+    transition: 0.5s ease-in-out;
+}
+.b4d:hover {
+    width: 12%;
+    transition: 0.5s ease-in-out;
+    background-color: aquamarine;
 }
