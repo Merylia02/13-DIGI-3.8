@@ -2,14 +2,24 @@
     padding: 0px;
     margin: 0px;
 }
+/* normal text and background*/
 html {
     background-image: url(images/blue-2353048_1280.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
+    background-size:6000px;
+    background-position: -1000px;
+    font: 28px 'Dosis';
 }
 .main {
-    margin-left: 350px;
+    margin-left: 450px;
+    padding-right: 150px;
+    padding-top: 120px;
+}
+.title {
+    font: 46px 'Arapey';
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
 }
 .navigation {
     background-color:#D9EAEE;
@@ -19,6 +29,57 @@ html {
     align-items: center;
 }
 img {
-    position:relative;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 80px;
 }
+.navbar {
+    margin-top: 50px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+li {
+    font:italic 34px 'Dosis';
+    margin: 0px;
+}
+.current {
+    background-color: #2090AC;
+    width: 5px;
+    white-space: nowrap;
+}
+.cadjust {
+    margin-left:28px;
+    padding: 10px;
+}
+.items {
+    width: 0%;
+    font: italic 34px'Dosis';
+    border: 0px;
+    padding: 10px;
+    white-space: nowrap;
+    transition: 0.5s ease-in-out;
+}
+.items:hover {
+    color: aliceblue;
+    width: 330px;
+    transition: 0.5s ease-in-out;
+    background-color: #2090AC;
+}
+.sitems {
+    padding: 10px;
+}
+.sitems:hover{
+    padding: 10px;
+    color: aliceblue;
+    width: 330px;
+    height: 330px;
+    transition: 0.5s ease-in-out;
+    background-color: #2090AC;
+}
+.adjust {
+    margin-left:20px;
+    padding: 10px;
 
+
+}
