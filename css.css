@@ -1,117 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 html {
-    background-color: #E5EAEE;
+    background-image: url(images/blue-2353048_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
 }
-/*button version 1*/
-.b1 {
-    background-color: #2090AC;
-    color: azure;
-    font: 34px'Arapey';
-    border: 0px;
-    border-radius: 100px;
-    padding: 10px;
+.main {
+    margin-left: 350px;
 }
-.b1:hover {    
-    background-color: #54bfda;
-    color: azure;
-    font: 34px'Arapey';
-    border: 0px;
-    border-radius: 100px;
-    padding: 10px;
-    transition: 0.5s;
-}
-/*button version 2*/
-.b2 {
-    background-color: rgba(182, 199, 199, 0);
-    font: 34px'Arapey';
-    border: 0px;
-    border-radius: 100px;
-    padding: 10px;
-}
-.b2:hover {    
-    font: 34px'Arapey';
-    text-decoration: underline;
-    transition: 0.5s;
-}
-/*button version 3*/
-.b3 {
-  background-color: rgba(182, 199, 199, 0);
-  font: 34px'Arapey';
-  border: 0px;
-  padding: 10px;
-  margin: 10px;
-  transition: all 2s ease-in-out;
-}
-.b3:hover {
-  background: linear-gradient(
-  90deg,
-  #2f4bff,
-  #2f4bff 3px,
-  #46529800 3px,
-  #46529800 20px);
-  transition: all 2s ease-in-out;
-}
-/*button version 4*/
-.b4d {
-    width: 0%;
-    font: 34px'Arapey';
-    border: 0px;
-    padding: 10px;
-    white-space: nowrap;
-    transition: 0.5s ease-in-out;
-}
-.b4d:hover {
-    color: aliceblue;
-    width: 220px;
-    transition: 0.5s ease-in-out;
-    background-color: #2090AC;
-}
-/*button version 5*/
-.b5 {
-    background-color: #2090AC;
-    color: azure;
-    font: 34px'Arapey';
-    padding: 10px; 
-    border-style: solid;
-    border-width: 0px;
-    transition: 0.5s;
-    position: relative;
-}
-.b5:hover {
-    border-style: solid;
-    border-width: 8px;
-    border-color: #54bfda;
-}
-/*button version 6*/
-.b6 {
-    background-color: #2090AC;
-    color: azure;
-    font: 34px'Arapey';
-    padding: 10px; 
-    left: 8px;
-    top: 400px;
-    border: 0px;
-    transition: 0.5px;
-}
-.b6:hover {
-    box-shadow: 6px 6px 6px #49b6d1;
-    transition: 0.5px;
-}
-/*button version 7*/
-.b7 {
-    width: 4px;
-    background-color: #2090ac00;
+.navigation {
+    background-color:#D9EAEE;
+    position: fixed;
+    width: 350px;
+    height: 1000px;
     align-items: center;
-    transition: 0.2s;
-    white-space: nowrap;
 }
-.b7-1 {
-    font: 34px 'Arapey';
-    text-align: center;
-    margin: 10px;
+img {
+    position:relative;
 }
 
-.b7:hover {
-    width: 4px;
-    background-color: #2090AC;
-    align-items: center;
-}
