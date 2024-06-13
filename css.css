@@ -15,12 +15,20 @@ html {
     padding-right: 150px;
     padding-top: 120px;
 }
+/*logo title in the navigation bar*/
+img {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 80px;
+}
 .title {
     font: 46px 'Arapey';
     float: right;
     margin-top: 50px;
     margin-right: 30px;
 }
+/*the navigation bar*/
 .navigation {
     background-color:#D9EAEE;
     position: fixed;
@@ -28,30 +36,18 @@ html {
     height: 1000px;
     align-items: center;
 }
-img {
-    position: relative;
-    margin-top: 20px;
-    margin-left: 30px;
-    width: 80px;
-}
+/*positioning of buttons*/
 .navbar {
     margin-top: 50px;
     margin-left: 0px;
     list-style-type: none;
 }
+/*The buttons of navigation*/
 li {
     font:italic 34px 'Dosis';
     margin: 0px;
 }
-.current {
-    background-color: #2090AC;
-    width: 5px;
-    white-space: nowrap;
-}
-.cadjust {
-    margin-left:28px;
-    padding: 10px;
-}
+/*normal buttons*/
 .items {
     width: 0%;
     font: italic 34px'Dosis';
@@ -60,11 +56,26 @@ li {
     white-space: nowrap;
     transition: 0.5s ease-in-out;
 }
+.adjust {
+    margin-left:20px;
+    padding: 10px;
+}
 .items:hover {
     color: aliceblue;
     width: 330px;
     transition: 0.5s ease-in-out;
     background-color: #2090AC;
+}
+/*current page*/
+.current {
+    background-color: #2090AC;
+    width: 5px;
+    white-space: nowrap;
+}
+/*special button*/
+.cadjust {
+    margin-left:28px;
+    padding: 10px;
 }
 .sitems {
     padding: 10px;
@@ -77,9 +88,4 @@ li {
     transition: 0.5s ease-in-out;
     background-color: #2090AC;
 }
-.adjust {
-    margin-left:20px;
-    padding: 10px;
 
-
-}
