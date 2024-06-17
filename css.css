@@ -9,11 +9,26 @@ html {
     background-size:6000px;
     background-position: -1000px;
     font: 28px 'Dosis';
+    color: #07244E;
 }
 .main {
-    margin-left: 450px;
+    background-color: rgba(202, 210, 221, 0.685);
+    padding-left: 500px;
     padding-right: 150px;
     padding-top: 120px;
+}
+/*typography ~*/
+h1 {
+    font: 65px 'Arapey';
+}
+h2 {
+    font:italic 45px 'Arapey';
+}
+/* all fixed items on screen*/
+.alf{
+    position: fixed;
+    width: 450px;
+    display: flex;
 }
 /*logo title in the navigation bar*/
 img {
@@ -30,10 +45,9 @@ img {
 }
 /*the navigation bar*/
 .navigation {
-    background-color:#D9EAEE;
-    position: fixed;
+    background-color:#F0FFFB;
     width: 350px;
-    height: 1000px;
+    height: 920px;
     align-items: center;
 }
 /*positioning of buttons*/
@@ -53,22 +67,24 @@ li {
     height: 59px;
     font: italic 34px'Dosis';
     border: 0px;
-    padding: 10px 0px;
+    padding: 14px 0px;
     white-space: nowrap;
     transition: 0.5s ease-in-out;
 }
 .items:hover .adjust {
     background-color: #2090AC;
     color: aliceblue;
-    width: 270px;
+    width: 310px;
     transition: 0.5s ease-in-out;  
 }
 .adjust {
     width: 0%;
-    height: 59px;
+    height: 69px;
     margin-left:0px;
-    padding: 10px 40px;
+    padding-left: 40px;
+    padding-top: 18px;
     white-space: nowrap;
+    transition: 0.5s ease-in-out;  
 }
 
 /*current page*/
@@ -84,13 +100,19 @@ li {
 }
 .sitems {
     padding: 0px;
-    margin-top: 9px;
+    margin-top: 14px;
 }
 .sitems:hover{
     color: aliceblue;
     width: 350px;
     height: 330px;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;  
     background-color: #2090AC;
 }
-
+/*function buttons*/
+.webfunctions {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 50px;
+    align-self: flex-end;
+}
