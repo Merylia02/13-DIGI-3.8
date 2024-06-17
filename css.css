@@ -13,7 +13,7 @@ html {
 }
 .main {
     background-color: rgba(202, 210, 221, 0.685);
-    padding-left: 500px;
+    padding-left: 550px;
     padding-right: 150px;
     padding-top: 120px;
 }
@@ -27,7 +27,7 @@ h2 {
 /* all fixed items on screen*/
 .alf{
     position: fixed;
-    width: 450px;
+    width: 500px;
     display: flex;
 }
 /*logo title in the navigation bar*/
@@ -112,12 +112,16 @@ li {
 /*function buttons*/
 .webfunctions {
     background-color: rgba(102, 51, 153, 0);
-    width: 100px;
+    width: 250px;
     height: 90px;
     align-self: flex-end;
 }
 
 .timer {
-    width:50px;
+    width:55px;
+    margin-left: 5px;
+}
+.notes {
+    width: 40px;
     margin-left: 10px;
 }
