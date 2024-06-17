@@ -111,8 +111,13 @@ li {
 }
 /*function buttons*/
 .webfunctions {
-    background-color: rebeccapurple;
+    background-color: rgba(102, 51, 153, 0);
     width: 100px;
-    height: 50px;
+    height: 90px;
     align-self: flex-end;
+}
+
+.timer {
+    width:50px;
+    margin-left: 10px;
 }
