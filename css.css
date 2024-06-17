@@ -125,3 +125,10 @@ li {
     width: 40px;
     margin-left: 10px;
 }
+
+/* the buttons function*/
+.box {
+    background-color: blueviolet;
+    height: 50px;
+    cursor: pointer;
+}
