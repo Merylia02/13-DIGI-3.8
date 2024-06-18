@@ -115,6 +115,7 @@ li {
     width: 250px;
     height: 90px;
     align-self: flex-end;
+    margin-bottom: 10px;
 }
 
 .timer {
@@ -126,9 +127,60 @@ li {
     margin-left: 10px;
 }
 
-/* the buttons function*/
+/* the buttons function (notes)*/
 .box {
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0);
     height: 50px;
     cursor: pointer;
+}
+.notespanel {
+    background-color:#F0FFFB;
+    width: 350px;
+    height: 470px;
+    left:350px;
+    top: 415px;
+
+    position: fixed;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+    padding: 10px;  
+
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #2090AC;
+}
+.checkbox1 {
+    width: 0px;
+    height: 0px;
+}
+.checkbox1:checked ~ .notespanel{
+    top: 1000px;
+    transition: 0.5s ease-in-out;  
+}
+/* the buttons function (timer)*/
+.timerpanel {
+    background-color:#F0FFFB;
+    width: 100px;
+    height: 40px;
+    left:485px;
+    top: 835px;
+
+    position: fixed;
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+    padding: 10px;  
+
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #2090AC;
+}
+.checkbox2 {
+    width: 0px;
+    height: 0px;
+}
+.checkbox2:checked ~ .timerpanel{
+    top: 1000px;
+    transition: 0.5s ease-in-out;  
 }
