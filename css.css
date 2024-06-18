@@ -1,5 +1,195 @@
+<<<<<<< Updated upstream
 button {
     background-color: aqua;
     font-size: large;
     font-family:'Dosis' ;
+=======
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* normal text and background*/
+html {
+    background-image: url(images/blue-2353048_1280.jpg);
+    background-repeat: no-repeat;
+    background-size:6000px;
+    background-position: -1000px;
+    font: 28px 'Dosis';
+    color: #07244E;
+}
+.main {
+    background-color: rgba(202, 210, 221, 0.685);
+    padding-left: 550px;
+    padding-right: 150px;
+    padding-top: 120px;
+}
+/*typography ~*/
+h1 {
+    font: 65px 'Arapey';
+}
+h2 {
+    font:italic 45px 'Arapey';
+}
+/* all fixed items on screen*/
+.alf{
+    position: fixed;
+    width: 500px;
+    display: flex;
+}
+/*logo title in the navigation bar*/
+img {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 80px;
+}
+.title {
+    font: 46px 'Arapey';
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+/*the navigation bar*/
+.navigation {
+    background-color:#F0FFFB;
+    width: 350px;
+    height: 920px;
+    align-items: center;
+}
+/*positioning of buttons*/
+.navbar {
+    margin-top: 50px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+/*The buttons of navigation*/
+li {
+    font:italic 34px 'Dosis';
+    margin: 0px;
+}
+/*normal buttons*/
+.items {
+    width: 350px;
+    height: 59px;
+    font: italic 34px'Dosis';
+    border: 0px;
+    padding: 14px 0px;
+    white-space: nowrap;
+    transition: 0.5s ease-in-out;
+}
+.items:hover .adjust {
+    background-color: #2090AC;
+    color: aliceblue;
+    width: 310px;
+    transition: 0.5s ease-in-out;  
+}
+.adjust {
+    width: 0%;
+    height: 69px;
+    margin-left:0px;
+    padding-left: 40px;
+    padding-top: 18px;
+    white-space: nowrap;
+    transition: 0.5s ease-in-out;  
+}
+
+/*current page*/
+.current {
+    background-color: #2090AC;
+    width: 5px;
+    white-space: nowrap;
+}
+/*special button*/
+.cadjust {
+    margin-left:28px;
+    padding: 10px;
+}
+.sitems {
+    padding: 0px;
+    margin-top: 14px;
+}
+.sitems:hover{
+    color: aliceblue;
+    width: 350px;
+    height: 330px;
+    transition: 0.5s ease-in-out;  
+    background-color: #2090AC;
+}
+/*function buttons*/
+.webfunctions {
+    background-color: rgba(102, 51, 153, 0);
+    width: 250px;
+    height: 90px;
+    align-self: flex-end;
+    padding-left: 10px;
+}
+
+.timer {
+    width:55px;
+    margin-left: 10px;
+}
+.notes {
+    width: 40px;
+    margin-left: 0px;
+}
+
+/* the buttons function (notes)*/
+.box {
+    height: 50px;
+    cursor: pointer;
+}
+.notespanel {
+    width: 350px;
+    height: 495px;
+    left: 350px;
+    top: 1200px;
+    padding: 10px;
+
+    position: fixed;
+    z-index: -1;
+    transition: 0.5s ease-in-out;  
+
+    background-color: #F0FFFB;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #07244E;
+    border-radius: 8px;
+}
+.box input:checked ~ .notespanel{
+    top: 400px;
+    transition: 0.5s ease-in-out;  
+}
+.checked1 {
+    width: 0px;
+    height: 0px;
+}
+
+/* the buttons function (timer)*/
+.timerpanel {
+    width: 150px;
+    height: 45px;
+    left: 495px;
+    top: 1145px;
+    padding: 5px;
+
+    position: fixed;
+    font: 38px 'Arapey';
+    text-align: center;
+    z-index: -1;
+    transition: 0.5s ease-in-out;  
+
+    background-color: #F0FFFB;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #07244E;
+    border-radius: 8px;
+}
+.checked2:checked ~ .timerpanel{
+    top: 850px;
+    transition: 0.5s ease-in-out;  
+}
+.checked2 {
+    width: 0px;
+    height: 0px;
+>>>>>>> Stashed changes
 }
