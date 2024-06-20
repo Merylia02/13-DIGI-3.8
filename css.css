@@ -4,7 +4,7 @@
 }
 /* normal text and background*/
 html {
-    background-image: url(images/blue-2353048_1280.jpg);
+    background-image: url(images/clouds-1282314_1280.jpg);
     background-repeat: no-repeat;
     background-size:6000px;
     background-position: -1000px;
@@ -12,7 +12,7 @@ html {
     color: #07244E;
 }
 .main {
-    background-color: rgba(202, 210, 221, 0.685);
+    background-color: rgba(187, 204, 228, 0.178);
     padding-left: 550px;
     padding-right: 150px;
     padding-top: 120px;
@@ -45,10 +45,17 @@ img {
 }
 /*the navigation bar*/
 .navigation {
-    background-color:#F0FFFB;
+    background: linear-gradient(180deg, #F0FFFB, #23796200);
+    background-size: 350px 180px;
+    background-repeat: no-repeat;
     width: 350px;
     height: 920px;
     align-items: center;
+    transition: 0.5s ease-in-out;  
+}
+.navigation:hover {
+    background-size: 350px 1000px;
+    transition: 0.5s ease-in-out;  
 }
 /*positioning of buttons*/
 .navbar {
@@ -111,10 +118,11 @@ li {
 }
 /*function buttons*/
 .webfunctions {
+    position: fixed;
     background-color: rgba(102, 51, 153, 0);
     width: 250px;
     height: 90px;
-    align-self: flex-end;
+    top: 800px;
     padding-left: 10px;
 }
 
@@ -142,15 +150,34 @@ li {
     position: fixed;
     z-index: -1;
     transition: 0.5s ease-in-out;  
+    color: #07254e3a;
 
-    background-color: #F0FFFB;
+    background-color: #f0fffba1;
     border-style: solid;
     border-width: 2px;
-    border-color: #07244E;
+    border-color: #07254e2f;
+    border-radius: 8px;
+}
+.notespanel:hover {
+    width: 350px;
+    height: 495px;
+    left: 350px;
+    top: 1200px;
+    padding: 10px;
+
+    position: fixed;
+    z-index: -1;
+    transition: 0.5s ease-in-out;  
+    color: #07254e;
+
+    background-color: #f0fffb;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #07254e;
     border-radius: 8px;
 }
 .box input:checked ~ .notespanel{
-    top: 400px;
+    top: 390px;
     transition: 0.5s ease-in-out;  
 }
 .checked1 {
@@ -160,10 +187,11 @@ li {
 
 /* the buttons function (timer)*/
 .timerpanel {
+    position: fixed;
     width: 150px;
     height: 45px;
     left: 495px;
-    top: 1145px;
+    top: 1000px;
     padding: 5px;
 
     position: fixed;
@@ -171,6 +199,30 @@ li {
     text-align: center;
     z-index: -1;
     transition: 0.5s ease-in-out;  
+    color: #07254e3a;
+
+
+    background-color: #f0fffba1;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #07254e2f;
+    border-radius: 8px;
+}
+.timerpanel:hover {
+    position: fixed;
+    width: 150px;
+    height: 45px;
+    left: 495px;
+    top: 1100px;
+    padding: 5px;
+
+    position: fixed;
+    font: 38px 'Arapey';
+    text-align: center;
+    z-index: -1;
+    transition: 0.5s ease-in-out;  
+    color: #07254e;
+
 
     background-color: #F0FFFB;
     border-style: solid;
@@ -179,7 +231,7 @@ li {
     border-radius: 8px;
 }
 .checked2:checked ~ .timerpanel{
-    top: 850px;
+    top: 825px;
     transition: 0.5s ease-in-out;  
 }
 .checked2 {
