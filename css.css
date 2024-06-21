@@ -6,16 +6,21 @@
 html {
     background-image: url(images/clouds-1282314_1280.jpg);
     background-repeat: no-repeat;
-    background-size:6000px;
-    background-position: -1000px;
+    background-size: cover;
+    background-position: 0px;
     font: 28px 'Dosis';
     color: #07244E;
+    width:100vw;
 }
 .main {
     background-color: rgba(187, 204, 228, 0.178);
-    padding-left: 550px;
-    padding-right: 150px;
+    padding-left: 350px;
     padding-top: 120px;
+    width: auto;
+    height: 85vh;
+}
+body {
+    width: 100vw;
 }
 /*typography ~*/
 h1 {
@@ -238,3 +243,15 @@ li {
     width: 0px;
     height: 0px;
 }
+/*stuff on main screen*/
+.usefullinfo {
+    /*appearance properties*/
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+
+    /*positoning properties*/
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    }
