@@ -17,7 +17,8 @@ html {
     padding-left: 350px;
     padding-top: 120px;
     width: auto;
-    height: 85vh;
+    height:790px;
+    overflow: hidden;
 }
 body {
     width: 100vw;
@@ -246,12 +247,31 @@ li {
 /*stuff on main screen*/
 .usefullinfo {
     /*appearance properties*/
-    background-color: blueviolet;
-    width: 100px;
-    height: 100px;
+    width: 700px;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
 
     /*positoning properties*/
     position: absolute;
     bottom: 5px;
     right: 5px;
+
+    /*text properties*/
+    text-align: right;
     }
+.quotes {
+    /*appearance properties*/
+    width: 900px;
+    height: 200px;
+    overflow: hidden;
+
+
+    /*positoning properties*/
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    /*text properties*/
+    text-align: right;
+}
