@@ -2,6 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
+a {
+    font: italic 34px'Dosis';
+    text-decoration: none;
+    color: #07244E;
+}
 /* normal text and background*/
 html {
     background-image: url(images/clouds-1282314_1280.jpg);
@@ -15,6 +20,14 @@ html {
 .main {
     background-color: rgba(187, 204, 228, 0.178);
     padding-left: 350px;
+    padding-top: 120px;
+    width: auto;
+    height:790px;
+    overflow: hidden;
+}
+.rmain {
+    background-color: rgba(187, 204, 228, 0.178);
+    padding-left: 450px;
     padding-top: 120px;
     width: auto;
     height:790px;
@@ -102,14 +115,30 @@ li {
 
 /*current page*/
 .current {
-    background-color: #2090AC;
-    width: 5px;
+    width: 350px;
+    height: 59px;
+    font: italic 34px'Dosis';
+    border: 0px;
+    padding: 14px 0px;
     white-space: nowrap;
+    transition: 0.5s ease-in-out;
 }
 /*special button*/
 .cadjust {
-    margin-left:28px;
-    padding: 10px;
+    width: 5px;
+    height: 69px;
+    margin-left:0px;
+    padding-left: 40px;
+    padding-top: 18px;
+    white-space: nowrap;
+    transition: 0.5s ease-in-out; 
+    background: repeating-linear-gradient(
+  90deg,
+  #2090AC,
+  #2090AC 8px,
+  #46529800 8px,
+  #46529800 45px
+);
 }
 .sitems {
     padding: 0px;
