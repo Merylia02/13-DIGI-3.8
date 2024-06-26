@@ -27,11 +27,13 @@ html {
 }
 .rmain {
     background-color: rgba(187, 204, 228, 0.178);
-    padding-left: 450px;
-    padding-top: 120px;
+    padding-left: 200px;
+    padding-top: 180px;
+    padding-right: 200px;
     width: auto;
     height:790px;
     overflow: hidden;
+    transition: 0.75s ease-in-out;
 }
 body {
     width: 100vw;
@@ -46,8 +48,36 @@ h2 {
 /* all fixed items on screen*/
 .alf{
     position: fixed;
-    width: 500px;
+    top: -925px;
+    left:3px;
+    width: 350px;
+    height: 1100px;
     display: flex;
+    clip-path: polygon(0 0,100% 0,100% 93%,50% 100%,0% 93%);
+    transition: 0.5s ease-in-out;
+}
+.alfb:hover .alf {
+    top: 0px;
+    transition: 0.5s ease-in-out;
+}
+.alf:hover ~ .rmain{
+    padding-left: 450px;
+    transition: 0.25s ease-in-out;
+}
+    /*border*/
+.alfb{
+    background-color: black;
+    position: fixed;
+    top: -925px;
+    width: 355px;
+    height: 1105px;
+    display: flex;
+    clip-path: polygon(0 0,100% 0,100% 93%,50% 100%,0% 93%);
+    transition: 0.5s ease-in-out;
+}
+.alfb:hover {
+    top: 0px;
+    transition: 0.5s ease-in-out;
 }
 /*logo title in the navigation bar*/
 img {
@@ -64,15 +94,22 @@ img {
 }
 /*the navigation bar*/
 .navigation {
-    background: linear-gradient(180deg, #F0FFFB, #23796200);
-    background-size: 350px 180px;
-    background-repeat: no-repeat;
+    /*design*/
+    background: #F0FFFB;
+    /*size*/
     width: 350px;
     height: 920px;
+
+    /*properties*/
     align-items: center;
-    transition: 0.5s ease-in-out;  
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 .navigation:hover {
+    height: 920px;
     background-size: 350px 1000px;
     transition: 0.5s ease-in-out;  
 }
@@ -137,7 +174,7 @@ li {
   #2090AC,
   #2090AC 8px,
   #46529800 8px,
-  #46529800 45px
+  #46529800 100px
 );
 }
 .sitems {
@@ -157,7 +194,7 @@ li {
     background-color: rgba(102, 51, 153, 0);
     width: 250px;
     height: 90px;
-    top: 800px;
+    top: 825px;
     padding-left: 10px;
 }
 
