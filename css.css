@@ -9,7 +9,7 @@ a {
 }
 /* normal text and background*/
 html {
-    background-image: url(images/clouds-1282314_1280.jpg);
+    background-image: url(images/winter-landscape-7639624_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px;
@@ -18,7 +18,7 @@ html {
     width:100vw;
 }
 .main {
-    background-color: rgba(187, 204, 228, 0.178);
+    background-color: rgba(253, 253, 253, 0.753);
     padding-left: 350px;
     padding-top: 120px;
     width: auto;
@@ -26,7 +26,7 @@ html {
     overflow: hidden;
 }
 .rmain {
-    background-color: rgba(187, 204, 228, 0.178);
+    background-color: rgba(253, 253, 253, 0.753);
     padding-left: 200px;
     padding-top: 180px;
     padding-right: 200px;
@@ -60,7 +60,7 @@ h2 {
     top: 0px;
     transition: 0.5s ease-in-out;
 }
-.alf:hover ~ .rmain{
+.alfb:hover + .rmain{
     padding-left: 450px;
     transition: 0.25s ease-in-out;
 }
